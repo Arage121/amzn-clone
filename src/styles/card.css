@@ -1,0 +1,51 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.cardDiv{
+    display: flex;
+    gap: 35px;
+    padding: 20px;
+    width: 95vw;
+    box-shadow: 1px 1px 10px 1px rgb(44, 44, 44);
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.cardDiv .imgDiv{
+    border: 1px solid gray;
+    border-style: dotted;
+}
+
+.cardDiv img{
+    width: 15vw;
+}
+
+.detailsDiv .titlePara{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.detailsDiv .ratingPara{
+    color: #007185;
+    font-size: 15px;
+}
+
+.detailsDiv .pricePara{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.detailsDiv .pricePara small{
+    font-weight: 100;
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

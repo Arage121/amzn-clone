@@ -1,0 +1,66 @@
+.carouselDiv{
+    margin-top: -40px;
+    display: flex;
+    position: relative;
+}
+
+.carouselDiv .slide{
+    width: 100vw;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition-delay: 1s;
+}
+
+.carouselDiv .slide-hidden{
+    display: none;
+    transform: translateX(100%);
+}
+
+.arrowBackIcon{
+    position: absolute;
+    left: 1%;
+    font-size: xx-large;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 4px #faf9f9;
+}
+
+.arrowForwardIcon{
+    position: absolute;
+    right: 1%;
+    font-size: xx-large;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 4px #faf9f9;
+}
+
+.imgMainDiv{
+    position: relative;
+}
+
+.imgSectionDiv{
+    position: absolute;
+    top: 44%;
+    padding: 0px 90px;
+}
+
+.imgCardSection{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.imgCardDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 8px 30px;
+}
+
+.imgCard{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.imgCard img{
+    width: 8.4vw;
+}
